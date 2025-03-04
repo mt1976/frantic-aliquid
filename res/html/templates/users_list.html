@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{template "title" .}}</title>
+  <!-- IMPORTS START -->
+  {{template "imports" .}}
+  {{template "navigation" .}}
+  <!-- IMPORTS END -->
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <div class="uk-container">
+
+    <h1 class="uk-heading"><i class="bi bi-people"></i>&nbsp;{{.PageTitle}}</h1>
+    <!-- <p class="uk-text-lead"><span class="uk-margin-small-right" uk-icon="icon: grid"></span><span
+        class="uk-text-muted">[{{.HostItem.ExternalID}}] {{.HostItem.Name}}</span></p> -->
+    <form class="uk-form-horizontal uk-margin-small">
+      <table
+      class="uk-table uk-table-small uk-table-divider  uk-table-justify  uk-table-responsive uk-table-hover">
+      <thead>
+        <tr>
+          <th>Key</th>
+ 
+          <th>Name</th>
+          <th>Code</th>
+          <th>Active</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{range .UsersList}}
+        <tr>
+          <td class="uk-text-bold"><a href="/user/vw/{{.ID}}/{{$.Session}}">{{.ID}}</a></td>
+     
+          <td>{{.RealName}}</td>
+          <td>{{.UserCode}}</td>
+          <td>{{.IsActive.State}}</td>
+          <td>
+            <a href="/user/vw/{{.ID}}/{{$.Session}}" class="uk-icon-button" uk-icon="eye"></a>
+            <a href="/user/ed/{{.ID}}/{{$.Session}}" class="uk-icon-button" uk-icon="file-edit"></a>
+          </td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+
+
+
+
+
+
+    </form>
+
+  </div>
+  <!-- End your project here-->
+</body>
+<!-- Footer -->
+
+</html>

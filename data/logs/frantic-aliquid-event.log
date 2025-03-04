@@ -1,0 +1,117 @@
+2025/03/04 13:53:42.294427 main.go:38: [35m[EVENT][0m [frantic-aliquid] Starting...
+2025/03/04 13:53:42.294534 main.go:39: [35m[EVENT][0m [frantic-aliquid] Version: 0.0.1
+2025/03/04 13:53:42.294543 main.go:40: [35m[EVENT][0m [frantic-aliquid] Author: Cervical Hamster
+2025/03/04 13:53:42.294549 main.go:41: [35m[EVENT][0m [frantic-aliquid] Build Date: 2021
+2025/03/04 13:53:42.294554 main.go:42: [35m[EVENT][0m [frantic-aliquid] Release Date: 2021-07-01
+2025/03/04 13:53:42.294559 main.go:43: [35m[EVENT][0m [frantic-aliquid] Path: dashboard
+2025/03/04 13:53:42.294564 main.go:44: [35m[EVENT][0m [frantic-aliquid] Locale: en_GB
+2025/03/04 13:53:42.294569 main.go:45: [35m[EVENT][0m [frantic-aliquid] Environment: development
+2025/03/04 13:53:42.294574 main.go:46: [35m[EVENT][0m 
+2025/03/04 13:53:42.294579 main.go:50: [35m[EVENT][0m [frantic-aliquid] Loading Docker Default Payloads...
+2025/03/04 13:53:42.294652 main.go:55: [35m[EVENT][0m [frantic-aliquid] Docker Default Payloads Loaded
+2025/03/04 13:53:42.294660 main.go:58: [35m[EVENT][0m [frantic-aliquid] Database Connection - Starting...
+2025/03/04 13:53:42.321526 main.go:62: [35m[EVENT][0m [frantic-aliquid] Database Connection - Connecting...
+2025/03/04 13:53:42.321542 dao.go:23: [35m[EVENT][0m Initialising DAO - Started
+2025/03/04 13:53:42.321990 authorityStore_init.go:33: [35m[EVENT][0m Initialised Authority
+2025/03/04 13:53:42.322514 behaviourStore_init.go:33: [35m[EVENT][0m Initialised Behaviour
+2025/03/04 13:53:42.322548 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (LIST) () (Authorities)
+2025/03/04 13:53:42.336663 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (VIEW) () (View Authority)
+2025/03/04 13:53:42.350552 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (EDIT) () (Edit Authority)
+2025/03/04 13:53:42.359453 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (UPDATE) () (Update Authority)
+2025/03/04 13:53:42.368373 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (LIST) () (List Behaviours)
+2025/03/04 13:53:42.377412 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (VIEW) () (View Behaviour)
+2025/03/04 13:53:42.385403 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (EDIT) () (Edit Behaviour)
+2025/03/04 13:53:42.393423 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (UPDATE) () (Update Behaviour)
+2025/03/04 13:53:42.401508 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOME) (ROUTE) () (Home)
+2025/03/04 13:53:42.409418 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (OOPS) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.417398 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (FAIL) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.425482 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SUCCESS) (MESSAGE) () (Action Succeeded)
+2025/03/04 13:53:42.433381 dao.go:36: [35m[EVENT][0m Initialising DAO - Complete
+2025/03/04 13:53:42.433446 main.go:67: [35m[EVENT][0m [frantic-aliquid] Database Connection - Connected
+2025/03/04 13:53:42.433467 main.go:69: [35m[EVENT][0m [frantic-aliquid] Backup - Starting...
+2025/03/04 13:53:42.433482 dao.go:23: [35m[EVENT][0m Initialising DAO - Started
+2025/03/04 13:53:42.434001 authorityStore_init.go:33: [35m[EVENT][0m Initialised Authority
+2025/03/04 13:53:42.434349 behaviourStore_init.go:33: [35m[EVENT][0m Initialised Behaviour
+2025/03/04 13:53:42.434361 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (LIST) () (Authorities)
+2025/03/04 13:53:42.450596 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (VIEW) () (View Authority)
+2025/03/04 13:53:42.458165 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (EDIT) () (Edit Authority)
+2025/03/04 13:53:42.464484 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (UPDATE) () (Update Authority)
+2025/03/04 13:53:42.470572 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (LIST) () (List Behaviours)
+2025/03/04 13:53:42.477054 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (VIEW) () (View Behaviour)
+2025/03/04 13:53:42.484656 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (EDIT) () (Edit Behaviour)
+2025/03/04 13:53:42.490720 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (UPDATE) () (Update Behaviour)
+2025/03/04 13:53:42.498712 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOME) (ROUTE) () (Home)
+2025/03/04 13:53:42.504963 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (OOPS) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.512877 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (FAIL) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.520846 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SUCCESS) (MESSAGE) () (Action Succeeded)
+2025/03/04 13:53:42.529187 dao.go:36: [35m[EVENT][0m Initialising DAO - Complete
+2025/03/04 13:53:42.529209 main.go:77: [35m[EVENT][0m [frantic-aliquid] Backup - Done
+2025/03/04 13:53:42.529222 main.go:79: [35m[EVENT][0m [frantic-aliquid] Starting frantic-aliquid...
+2025/03/04 13:53:42.529234 main.go:153: [35m[EVENT][0m [frantic-aliquid] Importing Defaults - Behaviours - Started
+2025/03/04 13:53:42.530409 behaviourStore_init.go:33: [35m[EVENT][0m Initialised Behaviour
+2025/03/04 13:53:42.532803 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (USERS) (LIST) () (Users)
+2025/03/04 13:53:42.541320 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (USERS) (VIEW) () (View User)
+2025/03/04 13:53:42.549027 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (USERS) (EDIT) () (Edit User)
+2025/03/04 13:53:42.561055 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (USERS) (UPDATE) () (Update User)
+2025/03/04 13:53:42.570054 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (STATUS) (LIST) () (Statuses)
+2025/03/04 13:53:42.577941 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (STATUS) (VIEW) () (View Status)
+2025/03/04 13:53:42.585886 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (STATUS) (EDIT) () (Edit Status)
+2025/03/04 13:53:42.593881 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (STATUS) (UPDATE) () (Update Status)
+2025/03/04 13:53:42.601902 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SETTINGS) (VIEW) () (Settings)
+2025/03/04 13:53:42.609917 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SETTINGS) (EDIT) () (Edit Settings)
+2025/03/04 13:53:42.617928 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SETTINGS) (UPDATE) () (Update Settings)
+2025/03/04 13:53:42.625888 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ZONES) (LIST) () (Zones)
+2025/03/04 13:53:42.633851 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ZONES) (VIEW) () (View Zone)
+2025/03/04 13:53:42.641970 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ZONES) (EDIT) () (Edit Zone)
+2025/03/04 13:53:42.649876 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ZONES) (UPDATE) () (Update Zone)
+2025/03/04 13:53:42.657889 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (LIST) () (List Hosts)
+2025/03/04 13:53:42.665902 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (VIEW) () (View Host)
+2025/03/04 13:53:42.673924 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (EDIT) () (Edit Host)
+2025/03/04 13:53:42.681847 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (UPDATE) () (Update Host)
+2025/03/04 13:53:42.689948 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (ENABLE) () (Enable Host)
+2025/03/04 13:53:42.697931 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOSTS) (DISABLE) () (Disable Host)
+2025/03/04 13:53:42.706453 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (LIST) () (Authorities)
+2025/03/04 13:53:42.715002 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (VIEW) () (View Authority)
+2025/03/04 13:53:42.720866 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (EDIT) () (Edit Authority)
+2025/03/04 13:53:42.727047 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (AUTHORITIES) (UPDATE) () (Update Authority)
+2025/03/04 13:53:42.734745 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (LIST) () (List Behaviours)
+2025/03/04 13:53:42.741068 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (VIEW) () (View Behaviour)
+2025/03/04 13:53:42.748953 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (EDIT) () (Edit Behaviour)
+2025/03/04 13:53:42.754803 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (BEHAVIOURS) (UPDATE) () (Update Behaviour)
+2025/03/04 13:53:42.760846 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (FAIL) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.766924 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (OOPS) (MESSAGE) () (Action Failed)
+2025/03/04 13:53:42.772990 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SUCCESS) (MESSAGE) () (Action Succeeded)
+2025/03/04 13:53:42.779008 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HEALTHCHECK) (MESSAGE) () (Health Check)
+2025/03/04 13:53:42.787409 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (APIS) (MESSAGE) () (API)
+2025/03/04 13:53:42.795404 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SECURITY) (LIST) () (Passwords)
+2025/03/04 13:53:42.803409 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SECURITY) (VIEW) () (View Password)
+2025/03/04 13:53:42.811397 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SECURITY) (EDIT) () (Edit Password)
+2025/03/04 13:53:42.819424 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SECURITY) (UPDATE) () (Update Password)
+2025/03/04 13:53:42.827422 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (HOME) (ROUTE) () (Home)
+2025/03/04 13:53:42.835269 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ADMIN) (API) () (Export)
+2025/03/04 13:53:42.843406 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (PASSWORDS) (EDIT) () (Edit Password)
+2025/03/04 13:53:42.851523 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SESSIONS) (EDIT) () (Edit Authority)
+2025/03/04 13:53:42.859376 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (TEXTS) (EDIT) () (Edit Text)
+2025/03/04 13:53:42.867359 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SECURITY) (LOGIN) () (login)
+2025/03/04 13:53:42.875757 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (PASSWORDS) (LIST) () (Passwords)
+2025/03/04 13:53:42.884475 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SESSIONS) (LIST) () (Authorities)
+2025/03/04 13:53:42.892369 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (TEXTS) (LIST) () (Texts)
+2025/03/04 13:53:42.900430 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (ROUTES) (ROUTE) () (Route ROUTES)
+2025/03/04 13:53:42.908323 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SESSIONS) (UPDATE) () (Update Authority)
+2025/03/04 13:53:42.916419 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (PASSWORDS) (UPDATE) () (Update Password)
+2025/03/04 13:53:42.924365 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (TEXTS) (UPDATE) () (Update Text)
+2025/03/04 13:53:42.932347 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (PASSWORDS) (VIEW) () (View Password)
+2025/03/04 13:53:42.940519 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (SESSIONS) (VIEW) () (View Authority)
+2025/03/04 13:53:42.949399 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (TESTS) (VIEW) () (Test)
+2025/03/04 13:53:42.957594 behaviourStore_helpers.go:109: [35m[EVENT][0m Declaring (TEXTS) (VIEW) () (View Text)
+2025/03/04 13:53:42.966422 importHelper.go:61: [35m[EVENT][0m Imported (55/55) Behaviour(s) from [/Users/matttownsend/Documents/GitHub/frantic-aliquid/data/defaults/behaviours.csv]
+2025/03/04 13:53:42.966440 main.go:160: [35m[EVENT][0m [frantic-aliquid] Importing Defaults - Behaviours - Completed
+2025/03/04 13:53:42.966451 main.go:83: [35m[EVENT][0m [frantic-aliquid] Initialise - Routes - Started
+2025/03/04 13:53:42.966457 main.go:87: [35m[EVENT][0m [frantic-aliquid] Initialise - System Users - Started
+2025/03/04 13:53:42.966461 main.go:90: [35m[EVENT][0m [frantic-aliquid] Initialise - System Users - Completed
+2025/03/04 13:53:42.966466 main.go:101: [35m[EVENT][0m [frantic-aliquid] Initialise - Routes - Completed
+2025/03/04 13:53:42.966473 main.go:104: [35m[EVENT][0m [frantic-aliquid] Job Scheduler Starting...
+2025/03/04 13:53:42.966710 main.go:106: [35m[EVENT][0m [frantic-aliquid] Job Scheduler Started
+2025/03/04 13:53:42.966716 main.go:110: [35m[EVENT][0m [frantic-aliquid] Startup - Granting User Access Rights to System User
+2025/03/04 13:53:42.966721 main.go:116: [35m[EVENT][0m [frantic-aliquid] Grant User Access Rights [sys_service] [sys]
+2025/03/04 13:53:44.132807 main.go:126: [35m[EVENT][0m [frantic-aliquid] Startup Complete

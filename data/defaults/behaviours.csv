@@ -1,0 +1,57 @@
+raw|text|action.Name|action.Code|domain
+list⋮users|Users|List|LIST|Users
+view⋮users|View User|View|VIEW|Users
+edit⋮users|Edit User|Edit|EDIT|Users
+update⋮users|Update User|Update|UPDATE|Users
+list⋮status|Statuses|List|LIST|Status
+view⋮status|View Status|View|VIEW|Status
+edit⋮status|Edit Status|Edit|EDIT|Status
+update⋮status|Update Status|Update|UPDATE|Status
+view⋮settings|Settings|View|VIEW|Settings
+edit⋮settings|Edit Settings|Edit|EDIT|Settings
+update⋮settings|Update Settings|Update|UPDATE|Settings
+list⋮zones|Zones|List|LIST|Zones
+view⋮zones|View Zone|View|VIEW|Zones
+edit⋮zones|Edit Zone|Edit|EDIT|Zones
+update⋮zones|Update Zone|Update|UPDATE|Zones
+list⋮hosts|List Hosts|List|LIST|Hosts
+view⋮hosts|View Host|View|VIEW|Hosts
+edit⋮hosts|Edit Host|Edit|EDIT|Hosts
+update⋮hosts|Update Host|Update|UPDATE|Hosts
+enable⋮hosts|Enable Host|Enable|ENABLE|Hosts
+disable⋮hosts|Disable Host|Disable|DISABLE|Hosts
+list⋮authorities|Authorities|List|LIST|Authorities
+view⋮authorities|View Authority|View|VIEW|Authorities
+edit⋮authorities|Edit Authority|Edit|EDIT|Authorities
+update⋮authorities|Update Authority|Update|UPDATE|Authorities
+list⋮behaviours|List Behaviours|List|LIST|Behaviours
+view⋮behaviours|View Behaviour|View|VIEW|Behaviours
+edit⋮behaviours|Edit Behaviour|Edit|EDIT|Behaviours
+update⋮behaviours|Update Behaviour|Update|UPDATE|Behaviours
+message⋮fail|Action Failed|Message|MESSAGE|Fail
+message⋮oops|Action Failed|Message|MESSAGE|Oops
+message⋮success|Action Succeeded|Message|MESSAGE|Success
+message⋮healthcheck|Health Check|Message|MESSAGE|Healthcheck
+message⋮apis|API|Message|MESSAGE|Apis
+list⋮security|Passwords|List|LIST|Security
+view⋮security|View Password|View|VIEW|Security
+edit⋮security|Edit Password|Edit|EDIT|Security
+update⋮security|Update Password|Update|UPDATE|Security
+route⋮home|Home|Route|ROUTE|Home
+api⋮admin|Export|API||ADMIN
+edit⋮passwords|Edit Password|Edit||PASSWORDS
+edit⋮sessions|Edit Authority|Edit||SESSIONS
+edit⋮texts|Edit Text|Edit||TEXTS
+login⋮security|login|Login||SECURITY
+list⋮passwords|Passwords|List||PASSWORDS
+list⋮sessions|Authorities|List||SESSIONS
+list⋮texts|Texts|List||TEXTS
+route⋮routes|Route ROUTES|Route||ROUTES
+update⋮sessions|Update Authority|Update||SESSIONS
+update⋮passwords|Update Password|Update||PASSWORDS
+update⋮texts|Update Text|Update||TEXTS
+view⋮passwords|View Password|View||PASSWORDS
+view⋮sessions|View Authority|View||SESSIONS
+view⋮tests|Test|View||TESTS
+view⋮texts|View Text|View||TEXTS
+# Generated (55) Behaviours at 11:56:56 2025-02-25 by 501_matttownsend on orion(*nix)

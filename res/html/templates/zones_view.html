@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{template "title" .}}</title>
+  <!-- IMPORTS START -->
+  {{template "imports" .}}
+  {{template "navigation" .}}
+  <!-- IMPORTS END -->
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <div class="uk-container">
+
+    <h1 class="uk-heading-bullet">{{.PageTitle}}</h1>
+    <p class="uk-text-lead"><i class="bi bi-diagram-3"></i>&nbsp;<span
+        class="uk-text-muted">[{{.ZonesItem.ID}}] {{.ZonesItem.Name}}</span></p>
+    <form class="uk-form-horizontal uk-margin-small">
+      <h2>Definition</h2>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="ID">ID</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="ID" type="text" placeholder="Enter Host Name" value="{{.ZonesItem.ID}}"
+            disabled>
+        </div>
+      </div>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="Name">Name</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="Name" type="text" placeholder="Enter Host Name" value="{{.ZonesItem.Name}}"
+            disabled>
+        </div>
+      </div>
+
+      <ul uk-accordion="multiple: true">
+        <li>
+          <a class="uk-accordion-title" href>Audit</a>
+          <div class="uk-accordion-content">
+
+            <table
+              class="uk-table uk-table-small uk-table-divider uk-table-justify  uk-table-responsive uk-table-hover">
+              <thead>
+                <tr>
+                  <th>ACTION</th>
+                  <th>By</th>
+                  <th>On</th>
+                  <th>At</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{range .ZonesItem.Audit.Updates}}
+                <tr>
+                  <td class="uk-text-bold">{{.UpdateAction}}</td>
+                  <td>{{.UpdatedBy}}</td>
+                  <td>{{.UpdatedOn}}</td>
+                  <td>{{.UpdatedAtDisplay}}</td>
+                  <td>{{.UpdateNotes}}</td>
+
+                </tr>
+                {{end}}
+              </tbody>
+            </table>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <p uk-margin class="uk-align-right">
+        <button type="submit" class="uk-button uk-button-default" formaction="/home?{{$.SessionKey}}={{$.Session}}"><i class="bi bi-x-circle"></i>&nbsp;Cancel</button>
+        <button type="submit" class="uk-button uk-button-primary" formaction="/zone/ed/{{.ZonesItem.ID}}/{{$.Session}}"><i class="bi bi-pencil-square"></i>&nbsp;Edit</button>
+      </p>
+
+    </form>
+
+  </div>
+  <!-- End your project here-->
+</body>
+<!-- Footer -->
+
+</html>

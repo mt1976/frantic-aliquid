@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{template "title" .}}</title>
+  <!-- IMPORTS START -->
+  {{template "imports" .}}
+  {{template "navigation" .}}
+  <!-- IMPORTS END -->
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <div class="uk-container">
+
+    <h1 class="uk-heading-bullet uk-text-danger">SECURITY VIOLATION</h1>
+    <p class="uk-text-lead">Something went wrong.</p>
+    <p class="uk-text-muted">Please try to login again.</p>
+    <p class="uk-text-muted">If the problem persists, please contact the administrator.</p>
+    
+    <p class=""><span class="uk-text-uppercase">{{.MessageType}}</span> : {{.Message}}</p>
+
+    <span class="uk-align-right">
+      <button class="uk-button uk-button-default" onclick="window.history.back()"><i class="bi bi-rewind"></i>&nbsp;Back</button>
+      <button class="uk-button uk-button-primary" onclick="window.location.href='/home?{{$.SessionKey}}={{$.Session}}'"><i class="bi bi-house"></i>&nbsp;Home</button>
+      </span>
+  </div>
+
+
+
+  <br>
+  <br>
+  <!-- End your project here-->
+</body>
+<!-- Footer -->
+
+</html>

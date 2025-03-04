@@ -1,0 +1,306 @@
+{{define "actions"}}
+<!-- <div class="btn-toolbar float-end" role="toolbar" aria-label="{{.ApplicationName}} toolbar">
+            {{if .Can.New}}
+              <a class="btn btn-sm btn-primary bg-gradient me-2" data-mdb-ripple-init href="/new/"><i class="bi bi-plus-square-dotted me-2"></i>New</a>
+            {{end}}
+            {{if .Can.Create}}
+              <button data-mdb-ripple-init type="submit" class="btn btn-sm btn-primary bg-gradient  me-2" id="submit"  role="button" method="POST" formaction="/create" title="Create new trip"><i class="bi bi-floppy me-2"></i>Create</button>
+            {{end}}
+            {{if .Can.Edit}} 
+              <a class="btn btn-sm btn-primary bg-gradient  me-2" data-mdb-ripple-init href="/edit/{{.Trip.Id}}"><i class="bi bi-pencil me-2"></i>Edit</a>
+            {{end}}
+            {{if .Can.EditUpdate}}
+              <button type="submit" value="" data-mdb-ripple-init class="btn btn-sm btn-primary bg-gradient  me-2" method="GET" formaction="/edit/{{.Trip.Id}}/update" onclick="/edit/{{.Trip.Id}}/update/" target="_self" title="Update Trip"><i class="bi bi-floppy me-2"></i>Update</button>
+            {{end}}
+            {{if .Can.Pack}}
+              <a class="btn btn-sm btn-primary bg-gradient  me-2" data-mdb-ripple-init href="/packing/{{.Trip.Id}}"><i class="fas bi bi-suitcase2 me-2"></i>Pack</a>
+            {{end}}
+            {{if .Can.PackUpdate}}
+              <button type="submit" value="" data-mdb-ripple-init class="btn btn-sm btn-primary bg-gradient me-2" method="GET" formaction="/packUpdate/{{.Trip.Id}}" onclick="/packUpdate/{{.Trip.Id}}" target="_self" title="Update Trip Packing Progress"><i class="bi bi-floppy me-2"></i>Update</button>
+            {{end}}
+            {{if .Can.SettingUpdate}}
+              <button type="submit" value="" data-mdb-ripple-init class="btn btn-sm btn-primary bg-gradient me-2" method="GET" formaction="/setting/{{.Settings.ID}}/update" onclick="/setting/update" target="_self" title="Update Settings"><i class="bi bi-floppy me-2"></i>Update</button>
+            {{end}}
+            {{if .Can.TextUpdate}}
+            <button type="submit" value="" data-mdb-ripple-init class="btn btn-sm btn-primary bg-gradient me-2" method="GET" formaction="/text/{{.TextItem.ID}}/update" onclick="/setting/update" target="_self" title="Update Settings"><i class="bi bi-floppy me-2"></i>Update</button>
+            {{end}}
+            {{if .Can.View}}
+            <a class="btn btn-sm btn-info bg-gradient me-2" data-mdb-ripple-init href="/view/{{.Trip.Id}}"><i class="bi bi-eye me-2"></i>View</a>
+            {{end}}
+            {{if .Can.ViewDetail}}
+            <a class="btn btn-sm btn-info bg-gradient me-2" data-mdb-ripple-init href="/view/{{.Trip.Id}}/detail"><i class="bi bi-zoom-in me-2"></i>Details</a>
+            {{end}}
+            {{if .Can.ViewAudit}}
+            <a class="btn btn-sm btn-info bg-gradient me-2" data-mdb-ripple-init href="/view/{{.Trip.Id}}/audit"><i class="bi bi-eyeglasses me-2"></i>Audit</a>
+            {{end}}
+          {{if .Can.Calendar}} 
+          <a class="btn btn-sm btn-info bg-gradient me-2" data-mdb-ripple-init href="/calendar"><i class="bi bi-calendar-week me-2"></i>Calendar</a>
+          {{end}}
+          {{if .Can.Clone}}
+            <a class="btn btn-sm btn-warning bg-gradient me-2" data-mdb-ripple-init href="/clone/{{.Trip.Id}}"><i class="bi bi-copy me-2"></i>Clone</a>
+          {{end}}
+          {{if .Can.Delete}}
+            <a class="btn btn-sm btn-danger bg-gradient me-2" data-mdb-ripple-init href="/delete/{{.Trip.Id}}"><i class="bi bi-trash3 me-2"></i>Delete</a>
+          {{end}}
+            {{if .Can.Reset}}
+            <button type="reset" value="" data-mdb-ripple-init class="btn btn-sm btn-outline-primary me-2" method="GET" formaction="/dashboard" onclick="/dashboard" target="_self" title="Reset"><i class="bi bi-arrow-counterclockwise me-2"></i>Reset</button>
+            {{end}}
+            {{if .Can.Cancel}}
+            <a class="btn btn-sm btn-outline-primary bg-gradient me-2" data-mdb-ripple-init href="/dashboard"><i class="bi bi-x-lg me-2"></i>Cancel</a>
+            {{end}}
+
+
+          {{if .Can.ViewSettings}}
+            <div class="btn-group" role="group" aria-label="first group" style="z-index: auto;">
+
+            <div class="dropdown">
+                  <a
+                    class="btn btn-sm btn-outline-info bg-gradient dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-mdb-dropdown-init
+                    data-mdb-ripple-init
+                    aria-expanded="false"
+                  >
+                    <i class="bi bi-list"></i>
+                  </a>
+
+                    <ul class="dropdown-menu small">
+                      <li><a class="dropdown-item small" href="/debug/destination"><i class="bi bi-pin-map text-info me-2"></i>Destination</a></li>
+                      <li><a class="dropdown-item small" href="/debug/users"><i class="bi bi-people text-info me-2"></i>Users</a></li>
+                      <li><a class="dropdown-item small" href="/debug/status"><i class="bi bi-braces-asterisk text-info me-2"></i>Status</a></li>
+                      <li><a class="dropdown-item small" href="/text"><i class="bi bi-card-text text-info me-2"></i>Text</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="/settings"><i class="bi bi-sliders text-primary me-2"></i>Settings</a></li>
+                    </ul>
+            </div>            
+            
+            </div>
+          {{end}}
+
+        </div> -->
+{{end}}
+
+{{define "navigation"}}
+<nav class="uk-navbar-container">
+  <div class="uk-container">
+    <div uk-navbar>
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active"><a href="#">APPLICATION</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="/home?{{$.SessionKey}}={{$.Session}}"><i class="bi bi-speedometer"></i>&nbsp;Dashboard</a></li>
+            <li><a href="/hosts/{{$.Session}}"><i class="bi bi-hdd-stack"></i>&nbsp;Hosts</a></li>
+            <li><a href="/zones/{{$.Session}}"><i class="bi bi-diagram-3"></i>&nbsp;Zones</a></li>
+            <li><a href="#"></a></li>
+
+
+          </ul>
+
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active"><a href="#">USERS</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="/users/{{$.Session}}"><i class="bi bi-people"></i>&nbsp;Users</a></li>
+            <li><a href="#"></a></li>
+
+          </ul>
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active ul-text"><a href="#">CONFIGURATION</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="/settings/{{$.Session}}"><i class="bi bi-sliders"></i>&nbsp;Settings</a></li>
+            <li><a href="/statuses/{{$.Session}}"><i class="bi bi-stoplights"></i>&nbsp;Statuses</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active ul-text"><a href="#">SESSION</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="/logout/{{$.Session}}"><i class="bi bi-box-arrow-right"></i></i>&nbsp;<span class="uk-text-emphasis">Logout</span></a></li>
+          </ul>
+
+        </div>
+        {{.ApplicationName}}&nbsp;{{.Delimiter}}&nbsp;{{.PageTitle}}
+      </div>
+    </div>
+  </div>
+</nav>
+<BR>
+{{end}}
+
+{{define "footer"}}
+<br><br>
+<footer class="uk-position-bottom">
+  <!-- Section: Text -->
+  <p class="uk-text-center uk-text-small uk-text-light">{{.ApplicationName}} {{.Delimiter}} v{{.ApplicationVersion}}</p>
+</footer>
+{{end}}
+
+{{define "progress"}}
+{{end}}
+
+{{define "bgGradient"}}
+<style>
+  body {
+    margin: 0;
+    color: #fff;
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(100px);
+  }
+
+  .gradient {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.45;
+    mix-blend-mode: screen;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1);
+  }
+
+  .gradient-1 {
+    background: rgb(255, 250, 251) none repeat scroll 0% 0% / auto padding-box border-box;
+    width: 700px;
+    height: 700px;
+    animation-duration: 11s;
+    opacity: 1;
+    left: 60%;
+    top: 40%;
+    z-index: -2;
+    animation-name: animation-gradient-1;
+  }
+
+  .gradient-2 {
+    background: rgb(139, 246, 253) none repeat scroll 0% 0% / auto padding-box border-box;
+    width: 600px;
+    height: 600px;
+    animation-duration: 11s;
+    opacity: 1;
+    left: 40%;
+    top: 60%;
+    z-index: -1;
+    animation-name: animation-gradient-2;
+  }
+
+  .gradient-3 {
+    background: rgb(251, 170, 253) none repeat scroll 0% 0% / auto padding-box border-box;
+    width: 500px;
+    height: 500px;
+    animation-duration: 11s;
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+    z-index: -3;
+    animation-name: animation-gradient-3;
+  }
+
+  @keyframes animation-gradient-1 {
+    0% {
+      transform: translateY(-50%) translateX(-50%) rotate(-20deg) translateX(20%);
+    }
+
+    25% {
+      transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(80deg) translateX(30%);
+    }
+
+    50% {
+      transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+    }
+
+    75% {
+      transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(240deg) translateX(15%);
+    }
+
+    100% {
+      transform: translateY(-50%) translateX(-50%) rotate(340deg) translateX(20%);
+    }
+  }
+
+  @keyframes animation-gradient-2 {
+    0% {
+      transform: translateY(-50%) translateX(-50%) rotate(40deg) translateX(-20%);
+    }
+
+    25% {
+      transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(110deg) translateX(-5%);
+    }
+
+    50% {
+      transform: translateY(-50%) translateX(-50%) rotate(210deg) translateX(-35%);
+    }
+
+    75% {
+      transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(300deg) translateX(-10%);
+    }
+
+    100% {
+      transform: translateY(-50%) translateX(-50%) rotate(400deg) translateX(-20%);
+    }
+  }
+
+  @keyframes animation-gradient-3 {
+    0% {
+      transform: translateY(-50%) translateX(-50%) translateX(-15%) translateY(10%);
+    }
+
+    20% {
+      transform: translateY(-50%) translateX(-50%) translateX(20%) translateY(-30%);
+    }
+
+    40% {
+      transform: translateY(-50%) translateX(-50%) translateX(-25%) translateY(-15%);
+    }
+
+    60% {
+      transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
+    }
+
+    80% {
+      transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(35%);
+    }
+
+    100% {
+      transform: translateY(-50%) translateX(-50%) translateX(-15%) translateY(10%);
+    }
+  }
+</style>
+{{end}}
+
+{{define "title"}}
+{{.ApplicationName}} - {{.PageAction}} - {{.PageTitle}}
+{{end}}
+
+
+
+
+
+
+
+{{define "imports"}}
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<!-- PWA -->
+<link rel="manifest" href="/res/app.webmanifest">
+
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+{{end}}

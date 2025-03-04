@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{template "title" .}}</title>
+  <!-- IMPORTS START -->
+  {{template "imports" .}}
+  {{template "navigation" .}}
+  <!-- IMPORTS END -->
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <div class="uk-container">
+
+    <h1 class="uk-heading-bullet">{{.PageTitle}}</h1>
+    <p class="uk-text-lead"><i class="bi bi-hdd-stack"></i>&nbsp;<span
+        class="uk-text-muted">[{{.HostItem.ExternalID}}] {{.HostItem.Name}}</span></p>
+    <form class="uk-form-horizontal uk-margin-small">
+      <h2>Definition</h2>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="Name">Name</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="Name" name="Name" type="text" placeholder="Enter Host Name" value="{{.HostItem.Name}}">
+        </div>
+      </div>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="FQDN">FQDN</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="FQDN" name="FQDN" type="text" placeholder="Enter Host Name" value="{{.HostItem.FQDN}}">
+        </div>
+      </div>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="IP4Addr">IP4Addr</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="IP4Addr" name="IP4Addr" type="text" placeholder="Enter Host IP4Addr"
+            value="{{.HostItem.IP4Addr}}">
+        </div>
+      </div>
+      <!-- <div class="uk-margin">
+        <label class="uk-form-label" for="Zone">Zone</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="Zone" name="Zone" type="text" placeholder="Enter Host Zone" value="{{.HostItem.Zone}}" required>
+        </div>
+      </div> -->
+      <div class="uk-margin">
+        <label class="uk-form-label" for="Zone">Zone</label>
+        <select class="uk-select" aria-label="Select" id="Zone" name="Zone">
+            <option value="{{.HostItem.Zone}}" selected>{{.HostItem.ZoneText}}</option>
+            {{range .ZonesSelect.Data}}
+            <option value="{{.Key}}">{{.Value}}</option>
+            {{end}}
+        </select>
+      </div>
+      <div class="uk-margin">
+        <label class="uk-form-label" for="Active">Enabled</label>
+        <div class="uk-form-controls">
+          <input class="uk-input" id="Active" type="text" placeholder="Enter Host Zone" value="{{.HostItem.IsActive.State}}"
+            disabled>
+        </div>
+      </div>
+      <br>
+
+      <ul uk-accordion="multiple: true">
+        <li class="uk-open">
+          <a class="uk-accordion-title" href>Response</a>
+          <div class="uk-accordion-content">
+            <div class="uk-margin">
+              <label class="uk-form-label" for="Status">Status</label>
+              <div class="uk-form-controls">
+                <span class="uk-label {{.HostItem.Status.Colour}}">{{.HostItem.Status.Name}}</span>
+              </div>
+            </div>
+            <div class="uk-margin">
+              <label class="uk-form-label" for="LastStatus">LastStatus</label>
+              <div class="uk-form-controls">
+                <span class="uk-label  {{.HostItem.LastStatus.Colour}}">{{.HostItem.LastStatus.Name}}</span>
+              </div>
+            </div>
+            <div class="uk-margin">
+              <label class="uk-form-label" for="LastChecked">Last Checked</label>
+              <div class="uk-form-controls">
+                <input class="uk-input" id="LastChecked" type="text" placeholder="Enter Host Zone"
+                  value="{{.HostItem.LastCheckedString}}" disabled>
+              </div>
+            </div>
+            <div class="uk-margin">
+              <label class="uk-form-label" for="LastOnline">Last Online</label>
+              <div class="uk-form-controls">
+                <input class="uk-input" id="LastOnline" type="text" placeholder="Enter Host Zone"
+                  value="{{.HostItem.LastOnlineString}}" disabled>
+              </div>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <a class="uk-accordion-title" href>Response History</a>
+          <div class="uk-accordion-content">
+            <table
+              class="uk-table uk-table-small uk-table-divider  uk-table-justify  uk-table-responsive uk-table-hover">
+              <thead>
+                <tr>
+                  <th>DateTime</th>
+                  <th>Message</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{range .HostItem.ResponseHistory}}
+                <tr>
+                  <td class="uk-text-muted">{{.ExternalDateTime}}</td>
+                  <td>{{.Text}}</td>
+                </tr>
+                {{end}}
+
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li>
+          <a class="uk-accordion-title" href>Audit</a>
+          <div class="uk-accordion-content">
+
+            <table
+              class="uk-table uk-table-small uk-table-divider uk-table-justify  uk-table-responsive uk-table-hover">
+              <thead>
+                <tr>
+                  <th>ACTION</th>
+                  <th>By</th>
+                  <th>On</th>
+                  <th>At</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{range .HostItem.Audit.Updates}}
+                <tr>
+                  <td class="uk-text-bold">{{.UpdateAction}}</td>
+                  <td>{{.UpdatedBy}}</td>
+                  <td>{{.UpdatedOn}}</td>
+                  <td>{{.UpdatedAtDisplay}}</td>
+                  <td>{{.UpdateNotes}}</td>
+
+                </tr>
+                {{end}}
+              </tbody>
+            </table>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <p uk-margin class="uk-align-right">
+        <button type="submit" class="uk-button uk-button-default" formaction="/home?{{$.SessionKey}}={{$.Session}}"><i class="bi bi-x-circle"></i>&nbsp;Cancel</button>
+        <button type="submit" class="uk-button uk-button-primary" formaction="/host/up/{{.HostItem.Name}}/{{$.Session}}" method="POST"><i class="bi bi-floppy"></i>&nbsp;Submit</button>
+
+      </p>
+
+    </form>
+
+  </div>
+  <!-- End your project here-->
+</body>
+<!-- Footer -->
+
+</html>

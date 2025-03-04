@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{{template "title" .}}</title>
+    <!-- IMPORTS START -->
+    {{template "imports" .}}
+    <!-- IMPORTS END -->
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="uk-container">
+
+    <h1 class="uk-heading-line"><span>{{.ApplicationName}} - Tests</span></h1>
+    <p class="uk-text-lead"><i class="bi bi-clipboard-data"></i>&nbsp;<span class="uk-text-muted">{{.PageTitle}}</span></p>
+    <h2 class="uk-heading-line"><span>Information</span></h2>
+    <table class="uk-table uk-table-divider uk-table-hover uk-table-small uk-table-striped uk-table-middle">
+      <thead>
+        <tr>
+            <th>Property</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tr>
+      <td class="uk-text-muted"><span>Application Name</td>
+      <td>{{.ApplicationName}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Icon</td>
+      <td>{{.ApplicationLogo}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Favicon</td>
+      <td>{{.ApplicationFavicon}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Version</td>
+      <td>{{.ApplicationVersion}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Environment</td>
+      <td>{{.ApplicationEnvironment}}</td>
+    </tr>
+    
+    <tr>
+      <td class="uk-text-muted">Application Prefix</td>
+      <td>{{.ApplicationPrefix}}</td>
+    </tr>
+
+
+  <tr>
+      <td class="uk-text-muted">Application OSSeperator</td>
+      <td>{{.OSSeperator}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Backup</td>
+      <td>{{.BackupLocation}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Dumps</td>
+      <td>{{.DumpLocation}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Database</td>
+      <td>{{.DatabaseLocation}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application Path</td>
+      <td>{{.ApplicationPath}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Application OS</td>
+      <td>{{.ApplicationOS}}</td>
+    </tr>
+
+
+
+
+    <tr>
+      <td class="uk-text-muted">Application Delimiter</td>
+      <td>{{.Delimiter}}</td>
+    </tr>
+        <tr>
+      <td class="uk-text-muted">Page Action</td>
+      <td>{{.PageAction}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Page Title</td>
+      <td>{{.PageTitle}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Message</td>
+      <td>{{.Message}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Message Type</td>
+      <td>{{.MessageType}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">SingleItem</td>
+      <td>{{.SingleItem}}</td>
+    </tr>
+    <tr>
+      <td class="uk-text-muted">Id</td>
+      <td>{{.ID}}</td>
+    </tr>
+
+
+  </table>
+  <h2 class="uk-heading-line"><span>Actions</span></h2>
+
+      <ul>
+        <li><a href="/" target="_self">Root</a></li>
+        <li><a href="home" target="_self">Home</a></li>
+        <li><a href="success" target="_self">Success</a></li>
+        <li><a href="fail" target="_self">Fail</a></li>
+        <li><a href="oops" target="_self">Oops</a></li>
+        <li><a href="hosts" target="_self">Hosts</a></li>
+        <li><a href="zones" target="_self">Zones</a></li>
+        <li><a href="statuses" target="_self">Statuses</a></li>
+        <li><a href="texts" target="_self">Text</a></li>
+        <li><a href="users" target="_self">Users</a></li>
+        <li><a href="settings" target="_self">Settings</a></li>
+        <li><a href="ExportTranslations" target="_self">Export - Translations</a></li>
+        <li><a href="ExportBehaviours" target="_self">Export - Behaviours</a></li>
+        <li><a href="ExportStatus" target="_self">Export - Status</a></li>
+      </ul>
+        
+        <br>
+        <br>
+        <br>
+        </div>
+    <!-- End your project here-->
+
+
+  </body>
+  <!-- Footer -->
+</html>

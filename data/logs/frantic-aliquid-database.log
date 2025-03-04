@@ -1,0 +1,569 @@
+2025/03/04 13:53:42.292867 database_internal.go:30: [37m[DATABASE][0m Database Connection Pool Size [10]
+2025/03/04 13:53:42.294666 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (0)
+2025/03/04 13:53:42.294681 database_internal.go:47: [37m[DATABASE][0m [CONNECT] (re)Opening [main.db] data connection
+2025/03/04 13:53:42.294924 database_internal.go:54: [37m[DATABASE][0m [CONNECT]  Opening [main.db] data connection *{connection:<nil> Name:main databaseName:/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db initialised:false}*
+2025/03/04 13:53:42.321302 database_internal.go:64: [37m[DATABASE][0m [CONNECT]  Connection Pool [map[]]
+2025/03/04 13:53:42.321351 database_internal.go:80: [37m[DATABASE][0m [CONNECTIONPOOL] Adding [main] to connection pool (/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db)
+2025/03/04 13:53:42.321457 database_internal.go:86: [37m[DATABASE][0m [CONNECTIONPOOL] Connection pool [size=1]
+2025/03/04 13:53:42.321465 database_internal.go:70: [37m[DATABASE][0m [CONNECT]  Connection Pool [map[main:0x140003cd380]]
+2025/03/04 13:53:42.321509 database_internal.go:72: [37m[DATABASE][0m [CONNECT]  Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json] true
+2025/03/04 13:53:42.321516 database_internal.go:74: [37m[DATABASE][0m [CONNECT] Opened [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db.db] data connection [codec=json] true
+2025/03/04 13:53:42.321938 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (1)
+2025/03/04 13:53:42.321970 database_internal.go:39: [37m[DATABASE][0m [CONNECT] Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.321980 database_internal.go:43: [37m[DATABASE][0m [CONNECT] Connection already open [main], using connection pool [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.322477 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (1)
+2025/03/04 13:53:42.322497 database_internal.go:39: [37m[DATABASE][0m [CONNECT] Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.322506 database_internal.go:43: [37m[DATABASE][0m [CONNECT] Connection already open [main], using connection pool [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.322807 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂authorities)
+2025/03/04 13:53:42.322836 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.322992 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.322998 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.323039 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.336696 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂authorities)
+2025/03/04 13:53:42.336703 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.336740 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.336745 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.336754 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.350630 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂authorities)
+2025/03/04 13:53:42.350676 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.350719 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.350726 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.350738 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.359610 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂authorities)
+2025/03/04 13:53:42.359621 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.359688 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.359695 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.359712 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.368593 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂behaviours)
+2025/03/04 13:53:42.368599 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.368690 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.368698 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.368711 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.377447 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂behaviours)
+2025/03/04 13:53:42.377453 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.377498 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.377504 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.377515 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.385441 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂behaviours)
+2025/03/04 13:53:42.385448 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.385508 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.385517 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.385530 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.393500 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂behaviours)
+2025/03/04 13:53:42.393520 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.393568 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.393575 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.393588 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.401559 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂route⦂home)
+2025/03/04 13:53:42.401570 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂route⦂home)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.401614 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.401619 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.401629 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.409491 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂oops)
+2025/03/04 13:53:42.409511 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂oops)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.409566 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.409576 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.409587 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.417448 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂fail)
+2025/03/04 13:53:42.417467 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂fail)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.417506 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.417510 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.417518 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.425641 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂success)
+2025/03/04 13:53:42.425649 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂success)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.425738 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.425747 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.425761 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.433979 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (1)
+2025/03/04 13:53:42.433991 database_internal.go:39: [37m[DATABASE][0m [CONNECT] Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.433995 database_internal.go:43: [37m[DATABASE][0m [CONNECT] Connection already open [main], using connection pool [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.434323 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (1)
+2025/03/04 13:53:42.434332 database_internal.go:39: [37m[DATABASE][0m [CONNECT] Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.434343 database_internal.go:43: [37m[DATABASE][0m [CONNECT] Connection already open [main], using connection pool [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.434386 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂authorities)
+2025/03/04 13:53:42.434391 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.450631 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂authorities)
+2025/03/04 13:53:42.450639 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.458235 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂authorities)
+2025/03/04 13:53:42.458240 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.464510 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂authorities)
+2025/03/04 13:53:42.464516 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.470620 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂behaviours)
+2025/03/04 13:53:42.470626 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.477127 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂behaviours)
+2025/03/04 13:53:42.477143 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.484704 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂behaviours)
+2025/03/04 13:53:42.484754 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.491144 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂behaviours)
+2025/03/04 13:53:42.491214 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.498741 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂route⦂home)
+2025/03/04 13:53:42.498747 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂route⦂home)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.505023 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂oops)
+2025/03/04 13:53:42.505656 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂oops)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.512899 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂fail)
+2025/03/04 13:53:42.512906 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂fail)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.520868 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂success)
+2025/03/04 13:53:42.520874 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂success)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.530313 database_internal.go:36: [37m[DATABASE][0m [CONNECT] Opening Connection to [main.db] data (1)
+2025/03/04 13:53:42.530355 database_internal.go:39: [37m[DATABASE][0m [CONNECT] Connection Pool [main] [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.530369 database_internal.go:43: [37m[DATABASE][0m [CONNECT] Connection already open [main], using connection pool [/Users/matttownsend/Documents/GitHub/frantic-aliquid//data/database/frantic-aliquid-main.db] [codec=json]
+2025/03/04 13:53:42.532832 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂users)
+2025/03/04 13:53:42.532837 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂users)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.532871 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.532874 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.532882 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.541346 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂users)
+2025/03/04 13:53:42.541351 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂users)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.541385 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.541389 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.541397 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.549058 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂users)
+2025/03/04 13:53:42.549066 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂users)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.549115 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.549171 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.549185 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.561186 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂users)
+2025/03/04 13:53:42.561299 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂users)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.561578 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.561604 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.561628 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.570098 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂status)
+2025/03/04 13:53:42.570109 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂status)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.570181 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.570192 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.570207 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.577967 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂status)
+2025/03/04 13:53:42.577975 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂status)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.578020 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.578023 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.578031 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.585911 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂status)
+2025/03/04 13:53:42.585918 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂status)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.585958 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.585961 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.585971 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.593902 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂status)
+2025/03/04 13:53:42.593908 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂status)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.593945 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.593952 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.593962 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.601920 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂settings)
+2025/03/04 13:53:42.601925 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂settings)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.601964 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.601970 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.601980 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.609934 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂settings)
+2025/03/04 13:53:42.609938 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂settings)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.609968 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.610014 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.610021 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.617948 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂settings)
+2025/03/04 13:53:42.617953 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂settings)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.617987 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.617990 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.617996 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.625912 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂zones)
+2025/03/04 13:53:42.625918 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂zones)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.625946 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.625949 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.625955 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.633866 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂zones)
+2025/03/04 13:53:42.633870 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂zones)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.633895 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.633899 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.633906 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.641990 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂zones)
+2025/03/04 13:53:42.641994 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂zones)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.642029 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.642035 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.642041 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.649893 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂zones)
+2025/03/04 13:53:42.649897 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂zones)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.649920 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.649923 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.649929 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.657904 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂hosts)
+2025/03/04 13:53:42.657910 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.657932 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.657935 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.657941 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.665925 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂hosts)
+2025/03/04 13:53:42.665931 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.665957 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.665966 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.665971 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.673939 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂hosts)
+2025/03/04 13:53:42.673943 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.673963 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.673966 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.673972 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.681861 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂hosts)
+2025/03/04 13:53:42.681864 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.681889 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.681894 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.681901 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.689965 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂enable⦂hosts)
+2025/03/04 13:53:42.689970 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂enable⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.689996 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.690003 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.690010 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.697970 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂disable⦂hosts)
+2025/03/04 13:53:42.697982 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂disable⦂hosts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.698040 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.698048 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.698062 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.706570 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂authorities)
+2025/03/04 13:53:42.706586 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.715025 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂authorities)
+2025/03/04 13:53:42.715030 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.720908 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂authorities)
+2025/03/04 13:53:42.720918 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.727096 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂authorities)
+2025/03/04 13:53:42.727112 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂authorities)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.734761 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂behaviours)
+2025/03/04 13:53:42.734766 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.741123 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂behaviours)
+2025/03/04 13:53:42.741159 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.748975 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂behaviours)
+2025/03/04 13:53:42.748981 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.754870 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂behaviours)
+2025/03/04 13:53:42.754886 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂behaviours)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.760863 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂fail)
+2025/03/04 13:53:42.760868 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂fail)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.766938 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂oops)
+2025/03/04 13:53:42.766943 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂oops)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.773064 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂success)
+2025/03/04 13:53:42.773082 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂success)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.779024 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂healthcheck)
+2025/03/04 13:53:42.779031 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂healthcheck)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.779058 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.779061 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.779072 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.787425 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂message⦂apis)
+2025/03/04 13:53:42.787429 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂message⦂apis)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.787452 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.787457 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.787465 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.795423 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂security)
+2025/03/04 13:53:42.795427 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂security)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.795453 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.795456 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.795462 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.803441 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂security)
+2025/03/04 13:53:42.803450 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂security)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.803504 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.803511 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.803524 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.811445 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂security)
+2025/03/04 13:53:42.811482 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂security)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.811589 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.811598 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.811618 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.819445 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂security)
+2025/03/04 13:53:42.819451 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂security)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.819479 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.819483 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.819491 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.827452 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂route⦂home)
+2025/03/04 13:53:42.827457 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂route⦂home)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.835324 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂api⦂admin)
+2025/03/04 13:53:42.835338 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂api⦂admin)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.835445 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.835453 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.835482 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.843428 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂passwords)
+2025/03/04 13:53:42.843434 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂passwords)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.843462 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.843465 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.843471 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.851582 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂sessions)
+2025/03/04 13:53:42.851597 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂sessions)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.851680 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.851688 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.851714 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.859396 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂edit⦂texts)
+2025/03/04 13:53:42.859401 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂edit⦂texts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.859432 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.859437 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.859445 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.867377 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂login⦂security)
+2025/03/04 13:53:42.867381 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂login⦂security)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.867405 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.867408 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.867413 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.875776 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂passwords)
+2025/03/04 13:53:42.875781 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂passwords)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.875806 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.875809 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.875815 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.884549 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂sessions)
+2025/03/04 13:53:42.884557 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂sessions)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.884612 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.884618 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.884630 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.892386 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂list⦂texts)
+2025/03/04 13:53:42.892390 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂list⦂texts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.892420 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.892425 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.892432 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.900461 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂route⦂routes)
+2025/03/04 13:53:42.900469 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂route⦂routes)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.900518 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.900527 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.900540 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.908341 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂sessions)
+2025/03/04 13:53:42.908346 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂sessions)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.908372 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.908376 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.908383 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.916500 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂passwords)
+2025/03/04 13:53:42.916514 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂passwords)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.916578 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.916587 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.916603 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.924383 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂update⦂texts)
+2025/03/04 13:53:42.924388 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂update⦂texts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.924413 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.924418 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.924463 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.932392 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂passwords)
+2025/03/04 13:53:42.932396 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂passwords)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.932421 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.932424 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.932429 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.940576 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂sessions)
+2025/03/04 13:53:42.940589 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂sessions)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.940674 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.940717 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.940738 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.949418 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂tests)
+2025/03/04 13:53:42.949422 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂tests)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.949452 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.949456 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.949464 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.957665 behaviourStore.go:61: [37m[DATABASE][0m Get Behaviour where (Raw=frantic-aliquid⦂view⦂texts)
+2025/03/04 13:53:42.957680 database.go:70: [37m[DATABASE][0m Retrieve (Raw=frantic-aliquid⦂view⦂texts)[Behaviour_Store] [main.db]
+2025/03/04 13:53:42.957769 database.go:101: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - Start
+2025/03/04 13:53:42.957778 database_internal.go:104: [37m[DATABASE][0m validate [Behaviour_Store] [main.db]
+2025/03/04 13:53:42.957801 database.go:107: [37m[DATABASE][0m Create [Behaviour_Store] [main.db] - End
+2025/03/04 13:53:42.966740 database.go:75: [37m[DATABASE][0m GetAll [Behaviour_Store][[]] [main.db]
+2025/03/04 13:53:42.967683 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:42.973166 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:42.973170 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:42.973184 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:42.981520 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:42.989003 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:42.989008 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:42.989017 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.001577 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.062252 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.062274 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.062317 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.070819 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.077351 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.077366 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.077428 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.088744 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.097872 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.097888 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.097917 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.107674 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.115392 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.115408 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.115437 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.123699 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.129215 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.129223 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.129235 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.137658 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.145739 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.145773 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.145796 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.154676 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.161455 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.161464 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.161497 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.169645 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.175412 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.175430 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.175459 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.183809 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.191524 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.191542 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.191576 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.200707 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.264029 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.264067 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.264125 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.273270 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.281345 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.281449 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.281537 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.290384 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.299698 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.299730 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.299766 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.308259 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.315312 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.315330 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.315363 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.326313 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.343801 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.343832 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.343866 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.353534 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.363124 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.363133 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.363146 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.371206 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.379310 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.379319 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.379332 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.388200 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.395462 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.395469 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.395483 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.403167 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.409340 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.409345 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.409356 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.417425 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.436189 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.436200 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.436214 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.444112 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.449541 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.449545 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.449556 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.458229 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.465573 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.465578 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.465587 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.473070 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.481490 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.481494 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.481504 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.489213 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.495508 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.495513 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.495523 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.504282 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.511952 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.511960 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.511971 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.520195 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.529382 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.529405 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.529425 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.537180 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.545429 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.545448 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.545476 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.554270 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.561856 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.561863 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.561877 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.570210 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.578437 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.578445 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.578461 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.588205 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.595693 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.595704 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.595722 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.606409 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.616030 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.616071 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.616085 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.630288 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.637694 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.637701 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.637726 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.646102 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.653769 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.653778 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.653794 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.662212 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.669912 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.669923 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.669939 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.678212 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.685500 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.685509 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.685528 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.694242 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.701834 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.701843 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.701861 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.710275 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.717843 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.717850 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.717870 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.726154 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.733793 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.733801 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.733815 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.742228 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.749913 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.749923 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.749940 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.758211 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.768400 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.768416 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.768446 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.777178 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.786138 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.786152 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.786180 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.794282 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.801990 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.802012 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.802038 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.810229 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.859424 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.859438 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.859465 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.868128 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.876218 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.876225 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.876240 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.884167 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.892067 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.892073 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.892086 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.900237 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.908640 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.908647 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.908661 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:43.917172 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:43.997333 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:43.997364 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:43.997439 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.008022 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.018413 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.018427 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.018453 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.027017 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.036416 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.036427 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.036447 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.044879 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.054563 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.054574 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.054601 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.063807 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.072431 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.072442 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.072464 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.080853 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.088211 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.088219 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.088239 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.096848 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.106452 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.106459 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.106475 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End
+2025/03/04 13:53:44.114881 database.go:75: [37m[DATABASE][0m GetAll [Authority_Store][[]] [main.db]
+2025/03/04 13:53:44.124334 database.go:101: [37m[DATABASE][0m Create [Authority_Store] [main.db] - Start
+2025/03/04 13:53:44.124341 database_internal.go:104: [37m[DATABASE][0m validate [Authority_Store] [main.db]
+2025/03/04 13:53:44.124359 database.go:107: [37m[DATABASE][0m Create [Authority_Store] [main.db] - End

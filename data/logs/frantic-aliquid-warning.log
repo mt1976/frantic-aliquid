@@ -1,0 +1,103 @@
+2025/03/04 13:53:42.322558 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES LIST, using frantic-aliquid
+2025/03/04 13:53:42.336679 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES VIEW, using frantic-aliquid
+2025/03/04 13:53:42.350604 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES EDIT, using frantic-aliquid
+2025/03/04 13:53:42.359570 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.368568 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS LIST, using frantic-aliquid
+2025/03/04 13:53:42.377428 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.385423 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.393438 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.401530 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOME ROUTE, using frantic-aliquid
+2025/03/04 13:53:42.409464 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for OOPS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.417421 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for FAIL MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.425606 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SUCCESS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.434368 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES LIST, using frantic-aliquid
+2025/03/04 13:53:42.450577 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂list⦂authorities" already in use, skipping
+2025/03/04 13:53:42.450615 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES VIEW, using frantic-aliquid
+2025/03/04 13:53:42.458151 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂view⦂authorities" already in use, skipping
+2025/03/04 13:53:42.458214 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES EDIT, using frantic-aliquid
+2025/03/04 13:53:42.464469 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂edit⦂authorities" already in use, skipping
+2025/03/04 13:53:42.464495 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.470557 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂update⦂authorities" already in use, skipping
+2025/03/04 13:53:42.470605 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS LIST, using frantic-aliquid
+2025/03/04 13:53:42.476994 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂list⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.477093 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.484609 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂view⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.484677 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.490685 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂edit⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.490813 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.498694 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂update⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.498720 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOME ROUTE, using frantic-aliquid
+2025/03/04 13:53:42.504882 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂route⦂home" already in use, skipping
+2025/03/04 13:53:42.504993 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for OOPS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.512861 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂oops" already in use, skipping
+2025/03/04 13:53:42.512887 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for FAIL MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.520831 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂fail" already in use, skipping
+2025/03/04 13:53:42.520856 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SUCCESS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.529153 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂success" already in use, skipping
+2025/03/04 13:53:42.532820 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for USERS LIST, using frantic-aliquid
+2025/03/04 13:53:42.541333 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for USERS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.549040 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for USERS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.561094 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for USERS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.570078 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for STATUS LIST, using frantic-aliquid
+2025/03/04 13:53:42.577951 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for STATUS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.585897 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for STATUS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.593889 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for STATUS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.601909 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SETTINGS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.609923 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SETTINGS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.617937 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SETTINGS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.625901 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ZONES LIST, using frantic-aliquid
+2025/03/04 13:53:42.633857 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ZONES VIEW, using frantic-aliquid
+2025/03/04 13:53:42.641979 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ZONES EDIT, using frantic-aliquid
+2025/03/04 13:53:42.649885 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ZONES UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.657895 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS LIST, using frantic-aliquid
+2025/03/04 13:53:42.665914 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.673932 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.681853 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.689955 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS ENABLE, using frantic-aliquid
+2025/03/04 13:53:42.697946 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOSTS DISABLE, using frantic-aliquid
+2025/03/04 13:53:42.706515 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES LIST, using frantic-aliquid
+2025/03/04 13:53:42.714982 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂list⦂authorities" already in use, skipping
+2025/03/04 13:53:42.715015 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES VIEW, using frantic-aliquid
+2025/03/04 13:53:42.720838 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂view⦂authorities" already in use, skipping
+2025/03/04 13:53:42.720882 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES EDIT, using frantic-aliquid
+2025/03/04 13:53:42.726985 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂edit⦂authorities" already in use, skipping
+2025/03/04 13:53:42.727067 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for AUTHORITIES UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.734727 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂update⦂authorities" already in use, skipping
+2025/03/04 13:53:42.734752 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS LIST, using frantic-aliquid
+2025/03/04 13:53:42.740992 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂list⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.741089 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.748928 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂view⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.748961 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.754730 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂edit⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.754824 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for BEHAVIOURS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.760827 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂update⦂behaviours" already in use, skipping
+2025/03/04 13:53:42.760853 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for FAIL MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.766906 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂fail" already in use, skipping
+2025/03/04 13:53:42.766930 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for OOPS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.772898 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂oops" already in use, skipping
+2025/03/04 13:53:42.773012 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SUCCESS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.778983 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂message⦂success" already in use, skipping
+2025/03/04 13:53:42.779016 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HEALTHCHECK MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.787416 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for APIS MESSAGE, using frantic-aliquid
+2025/03/04 13:53:42.795412 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SECURITY LIST, using frantic-aliquid
+2025/03/04 13:53:42.803422 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SECURITY VIEW, using frantic-aliquid
+2025/03/04 13:53:42.811404 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SECURITY EDIT, using frantic-aliquid
+2025/03/04 13:53:42.819433 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SECURITY UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.827430 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for HOME ROUTE, using frantic-aliquid
+2025/03/04 13:53:42.835209 behaviourStore_helpers.go:133: [33m[WARNING][0m Duplicate Behaviour "frantic-aliquid⦂route⦂home" already in use, skipping
+2025/03/04 13:53:42.835288 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ADMIN API, using frantic-aliquid
+2025/03/04 13:53:42.843416 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for PASSWORDS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.851548 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SESSIONS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.859383 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for TEXTS EDIT, using frantic-aliquid
+2025/03/04 13:53:42.867366 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SECURITY LOGIN, using frantic-aliquid
+2025/03/04 13:53:42.875766 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for PASSWORDS LIST, using frantic-aliquid
+2025/03/04 13:53:42.884533 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SESSIONS LIST, using frantic-aliquid
+2025/03/04 13:53:42.892376 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for TEXTS LIST, using frantic-aliquid
+2025/03/04 13:53:42.900444 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for ROUTES ROUTE, using frantic-aliquid
+2025/03/04 13:53:42.908330 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SESSIONS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.916464 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for PASSWORDS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.924373 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for TEXTS UPDATE, using frantic-aliquid
+2025/03/04 13:53:42.932382 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for PASSWORDS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.940543 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for SESSIONS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.949407 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for TESTS VIEW, using frantic-aliquid
+2025/03/04 13:53:42.957630 behaviourStore_helpers.go:118: [33m[WARNING][0m No source provided for TEXTS VIEW, using frantic-aliquid
