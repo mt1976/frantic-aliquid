@@ -82,7 +82,7 @@ func GetRights(ctx context.Context, b behaviourStore.Behaviour_Store) followOnPe
 		logHandler.SecurityLogger.Printf("[%v] %v", strings.ToUpper(domain.String()), err)
 		return followOnPermissions.FollowOnPermissions{}
 	}
-
+	logHandler.InfoLogger.Printf("****** a: %+v", a)
 	authority, err := authorityStore.GetByKey(a.Key)
 	if err != nil {
 		logHandler.SecurityLogger.Printf("[%v] %v", strings.ToUpper(domain.String()), err)
@@ -113,7 +113,9 @@ func GetAuthorities(ctx context.Context, usr messageHelpers.UserMessage, behavio
 
 	// range through status list, if status code is found and deletedby is empty then return error
 	for _, a := range authorityList {
-		if a.UserKey == userKey && a.Behaviour.Key == behaviorKey {
+		//logHandler.InfoLogger.Printf("** a: %v %v %v %v", a.UserCode, usr.Code, a.Behaviour.Key, behaviorKey)
+		if a.UserCode == userKey && a.Behaviour.Key == behaviorKey {
+			logHandler.InfoLogger.Printf("** a: %v", a)
 			return a.BuildMessage()
 		}
 	}
@@ -121,6 +123,6 @@ func GetAuthorities(ctx context.Context, usr messageHelpers.UserMessage, behavio
 	msg := "[%v] Authority not found for user [%v] and behaviour [%v]"
 
 	logHandler.SecurityLogger.Printf(msg, strings.ToUpper(domain.String()), userKey, behaviorKey)
-
+	logHandler.WarningLogger.Printf(msg, strings.ToUpper(domain.String()), userKey, behaviorKey)
 	return messageHelpers.AuthorityMessage{}, nil
 }
