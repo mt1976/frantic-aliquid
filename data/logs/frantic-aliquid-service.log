@@ -1,4 +1,0 @@
-2025/03/04 13:53:42.966480 jobs.go:12: [32m[SERVICE][0m [JOBS] Queue - Starting
-2025/03/04 13:53:42.966669 jobs_helpers.go:95: [32m[SERVICE][0m [Schedule] Scheduler - Starting
-2025/03/04 13:53:42.966698 jobs_helpers.go:104: [32m[SERVICE][0m [Schedule] Scheduler - Started
-2025/03/04 13:53:42.966705 jobs.go:30: [32m[SERVICE][0m [JOBS] Queue - Started
