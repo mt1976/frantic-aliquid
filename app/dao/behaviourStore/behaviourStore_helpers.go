@@ -125,6 +125,7 @@ func Declare(inAction actions.Action, inDomain domains.Domain, note, source stri
 		note = inAction.GetName() + " " + inDomain.String()
 	}
 	b.Note = note
+	b.Display = strings.ToLower(inAction.GetName() + SEP + inDomain.String())
 	// Check for duplicates
 	xStatus, err := b.isDuplicateOf(b.Raw)
 	if err == commonErrors.ErrorDuplicate {

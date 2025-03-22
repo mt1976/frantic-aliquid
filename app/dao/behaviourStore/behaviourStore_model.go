@@ -21,6 +21,7 @@ type Behaviour_Store struct {
 	Action      actions.Action                          `csv:"action" storm:"index"`
 	Domain      string                                  `csv:"domain" storm:"index"`
 	Source      string                                  `csv:"source" storm:"index"`
+	Display     string                                  `csv:"-"` // display
 	Audit       audit.Audit                             `csv:"-"`
 }
 

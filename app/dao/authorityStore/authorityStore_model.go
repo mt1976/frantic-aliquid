@@ -22,6 +22,7 @@ type Authority_Store struct {
 	Behaviour    behaviourStore.Behaviour_Store `csv:"-"`                     // behaviour details
 	Info         string                         `csv:"-"`                     // info
 	Source       string                         `storm:"index"`               // source
+	Display      string                         `csv:"-"`                     // display
 	Audit        audit.Audit                    `csv:"-"`                     // audit data
 }
 

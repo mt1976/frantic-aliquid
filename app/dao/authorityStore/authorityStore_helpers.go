@@ -174,6 +174,7 @@ func BuildBaseRecord(usr messageHelpers.UserMessage, ben behaviourStore.Behaviou
 	g.Behaviour = ben
 	g.BehaviourKey = ben.Key
 	g.Source = usr.Source
+	g.Display = g.Raw
 	if !strings.EqualFold(ben.Source, usr.Source) {
 		logHandler.ErrorLogger.Printf("Source mismatch: User: '%v', Behaviour: '%v'", usr.Code, ben.Raw)
 		return Authority_Store{}, fmt.Errorf("source mismatch: User: '%v', Behaviour: '%v'", usr.Code, ben.Raw)
@@ -188,5 +189,6 @@ func (a Authority_Store) BuildMessage() (messageHelpers.AuthorityMessage, error)
 	am.Key = a.Key
 	am.User = messageHelpers.UserMessage{Key: a.User.Code, Code: a.User.Code, Source: a.User.Source}
 	am.Behaviour = messageHelpers.BehaviourMessage{Key: a.Behaviour.Key}
+	am.Source = a.Source
 	return am, nil
 }

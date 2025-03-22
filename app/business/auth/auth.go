@@ -23,11 +23,11 @@ func init() {
 	cfg = *commonConfig.Get()
 }
 
-func encode(str string) string {
-	// Encode the string
-	// Return the encoded string
-	return idHelpers.Encode(str)
-}
+// func encode(str string) string {
+// 	// Encode the string
+// 	// Return the encoded string
+// 	return idHelpers.Encode(str)
+// }
 
 // func GrantUserAuthority(ctx context.Context, usr messageHelpers.UserMessage, ben behaviourStore.Behaviour_Store) (authorityStore.Authority_Store, error) {
 // 	user, userError := userStore.GetByUserCode(usr.Code)
