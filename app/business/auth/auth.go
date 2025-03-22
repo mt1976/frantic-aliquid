@@ -11,7 +11,6 @@ import (
 	"github.com/mt1976/frantic-core/commonConfig"
 	"github.com/mt1976/frantic-core/commonErrors"
 	"github.com/mt1976/frantic-core/dao/audit"
-	"github.com/mt1976/frantic-core/idHelpers"
 	"github.com/mt1976/frantic-core/logHandler"
 	"github.com/mt1976/frantic-core/messageHelpers"
 )
@@ -82,10 +81,13 @@ func revokeUserAuthority(ctx context.Context, usr messageHelpers.UserMessage, be
 	if userErr != nil {
 		return userErr
 	}
-	user := usr.Key
-	action := ben.Key
-	authority_Key := strings.ToLower(user + cfg.SEP() + action)
-	authority_Key = idHelpers.Encode(authority_Key)
+	//user := usr.Key
+	//action := ben.Key
+
+	authority_Key, _ := authorityStore.BuildKeys(usr, ben)
+
+	//authority_Key := strings.ToLower(user + cfg.SEP() + action)
+	//authority_Key = idHelpers.Encode(authority_Key)
 	err := authorityStore.DeleteBy(ctx, authorityStore.FIELD_Key, authority_Key, "Revoked")
 	if err != nil {
 		logHandler.WarningLogger.Printf("[%v] Reading Id=[%v] %v", strings.ToUpper(domain.String()), authority_Key, err.Error())

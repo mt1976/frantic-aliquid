@@ -166,8 +166,7 @@ func GetByBehaviourKey(id string) []Authority_Store {
 
 func BuildBaseRecord(usr messageHelpers.UserMessage, ben behaviourStore.Behaviour_Store) (Authority_Store, error) {
 	g := Authority_Store{}
-	g.Raw = usr.Code + SEP + ben.Raw
-	g.Key = idHelpers.Encode(g.Raw)
+	g.Key, g.Raw = BuildKeys(usr, ben)
 	g.UserKey = usr.Key
 	g.User = usr
 	g.UserCode = usr.Code
@@ -182,6 +181,12 @@ func BuildBaseRecord(usr messageHelpers.UserMessage, ben behaviourStore.Behaviou
 	g.Info = fmt.Sprintf("User: '%v', Behaviour: '%v', Key='%v%v%v'", usr.Code, ben.Raw, usr.Code, SEP, ben.Raw)
 
 	return g, nil
+}
+
+func BuildKeys(usr messageHelpers.UserMessage, ben behaviourStore.Behaviour_Store) (Key, Raw string) {
+	Raw = usr.Code + SEP + ben.Raw
+	Key = idHelpers.Encode(Raw)
+	return Key, Raw
 }
 
 func (a Authority_Store) BuildMessage() (messageHelpers.AuthorityMessage, error) {
