@@ -20,7 +20,7 @@ func GrantAllUserAccessRights(usr messageHelpers.UserMessage) error {
 	}
 
 	if usr.Source == "" {
-		logHandler.ErrorLogger.Printf("[%v] User [%v] has no source using [%v]", appName, usr.Code, cfg.GetApplication_Name())
+		logHandler.WarningLogger.Printf("[%v] User [%v] has no source using [%v]", appName, usr.Code, cfg.GetApplication_Name())
 		usr.Source = cfg.GetApplication_Name()
 	}
 
@@ -32,7 +32,7 @@ func GrantAllUserAccessRights(usr messageHelpers.UserMessage) error {
 
 	for _, b := range bList {
 		if strings.EqualFold(b.Source, usr.Source) {
-			logHandler.InfoLogger.Printf("[%v] Granting [%v] to [%v]", appName, b.Raw, usr.Code)
+			logHandler.InfoLogger.Printf("[%v] Granting [%v] to [%v] for [%v]", appName, b.Display, usr.Code, b.Source)
 			_, err = GrantUserAuthority(context.TODO(), usr, b)
 			if err != nil {
 				logHandler.ErrorLogger.Println(err.Error())

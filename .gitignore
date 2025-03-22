@@ -25,3 +25,12 @@ go.work.sum
 .env
 
 main.go
+data/database/frantic-aliquid-main.db
+data/logs/frantic-aliquid-audit.log
+data/logs/frantic-aliquid-database.log
+data/logs/frantic-aliquid-event.log
+data/logs/frantic-aliquid-general.log
+data/logs/frantic-aliquid-import.log
+data/logs/frantic-aliquid-security.log
+data/logs/frantic-aliquid-service.log
+data/logs/frantic-aliquid-warning.log
