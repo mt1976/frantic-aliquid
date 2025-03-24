@@ -11,7 +11,6 @@ import (
 
 	"github.com/mt1976/frantic-aliquid/app/business/domains"
 	"github.com/mt1976/frantic-aliquid/app/business/followOnPermissions"
-	"github.com/mt1976/frantic-aliquid/app/business/translation"
 	"github.com/mt1976/frantic-core/commonErrors"
 	"github.com/mt1976/frantic-core/dao"
 	"github.com/mt1976/frantic-core/dao/actions"
@@ -20,7 +19,6 @@ import (
 	"github.com/mt1976/frantic-core/idHelpers"
 	"github.com/mt1976/frantic-core/logHandler"
 	"github.com/mt1976/frantic-core/paths"
-	"github.com/mt1976/frantic-core/stringHelpers"
 	"github.com/mt1976/frantic-core/timing"
 )
 
@@ -115,7 +113,7 @@ func Declare(inAction actions.Action, inDomain domains.Domain, note, source stri
 	b.Domain = strings.ToLower(inDomain.String())
 	if source == "" {
 		source = cfg.GetApplication_Name()
-		logHandler.WarningLogger.Printf("No source provided for %v %v, using %v", inDomain, inAction.GetName(), source)
+		//logHandler.WarningLogger.Printf("No source provided for %v %v, using %v", inDomain, inAction.GetName(), source)
 	}
 	b.Source = strings.ToLower(source)
 	b.HTMLPageID = strings.ToLower(inDomain.String() + "_" + inAction.GetName())
@@ -131,7 +129,7 @@ func Declare(inAction actions.Action, inDomain domains.Domain, note, source stri
 	if err == commonErrors.ErrorDuplicate {
 		// This is OK, do nothing as this is a duplicate record
 		// we ignore duplicates.
-		logHandler.WarningLogger.Printf(translation.Get("Duplicate %v %v already in use, skipping"), domain, stringHelpers.DQuote(b.Raw))
+		//logHandler.WarningLogger.Printf(translation.Get("Duplicate %v %v already in use, skipping"), domain, stringHelpers.DQuote(b.Raw))
 		clock.Stop(1)
 		return xStatus, nil
 	}
@@ -152,7 +150,8 @@ func Declare(inAction actions.Action, inDomain domains.Domain, note, source stri
 		panic(err)
 	}
 
-	logHandler.SecurityLogger.Printf("[%v] [%v] ID=[%v] Raw=[%v]", inDomain, strings.ToUpper(inDomain.String()), b.ID, b.Raw)
+	//logHandler.SecurityLogger.Printf("[%v] [%v] ID=[%v] Raw=[%v]", inDomain, strings.ToUpper(inDomain.String()), b.ID, b.Raw)
+	logHandler.SecurityLogger.Printf("Declared (%v) (%v) (%v) (%v)", inDomain, inAction.GetName(), source, note)
 
 	return b, nil
 }

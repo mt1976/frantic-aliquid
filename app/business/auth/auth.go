@@ -47,7 +47,7 @@ func GrantUserAuthority(ctx context.Context, usr messageHelpers.UserMessage, ben
 
 	xUser, err := g.IsDuplicateOf(g.Key)
 	if err == commonErrors.ErrorDuplicate {
-		logHandler.WarningLogger.Printf("[%v] DUPLICATE [%v] already exists,skipping", domain.String(), g.Raw)
+		//logHandler.WarningLogger.Printf("[%v] DUPLICATE [%v] already exists,skipping", domain.String(), g.Raw)
 		rtn, _ := xUser.BuildMessage()
 		return rtn, nil
 	}

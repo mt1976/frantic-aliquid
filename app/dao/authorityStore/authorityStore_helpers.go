@@ -61,7 +61,7 @@ func (record *Authority_Store) isDuplicateOf(id string) (Authority_Store, error)
 		//logHandler.InfologHandler.Printf("CHK: TestValue:[%v] CheckValue:[%v]", testValue, checkValue)
 		//logHandler.InfologHandler.Printf("CHK: Code:[%v] s.Code:[%v] s.Audit.DeletedBy:[%v]", testCode, s.Code, s.Audit.DeletedBy)
 		if checkValue == testValue && checkRecord.Audit.DeletedBy == "" {
-			logHandler.WarningLogger.Printf("Duplicate %v, %v already in use", strings.ToUpper(domain), record.ID)
+			//	logHandler.WarningLogger.Printf("Duplicate %v, %v already in use", strings.ToUpper(domain), record.ID)
 			return checkRecord, commonErrors.ErrorDuplicate
 		}
 	}

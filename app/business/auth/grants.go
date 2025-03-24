@@ -20,7 +20,7 @@ func GrantAllUserAccessRights(usr messageHelpers.UserMessage) error {
 	}
 
 	if usr.Source == "" {
-		logHandler.WarningLogger.Printf("[%v] User [%v] has no source using [%v]", appName, usr.Code, cfg.GetApplication_Name())
+		//logHandler.WarningLogger.Printf("[%v] User [%v] has no source using [%v]", appName, usr.Code, cfg.GetApplication_Name())
 		usr.Source = cfg.GetApplication_Name()
 	}
 
