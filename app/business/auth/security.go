@@ -5,9 +5,11 @@ import (
 	"net/http"
 	"strings"
 
+	secHelper "github.com/mt1976/frantic-aegis/app/web/security"
 	"github.com/mt1976/frantic-aliquid/app/business/followOnPermissions"
 	"github.com/mt1976/frantic-aliquid/app/dao/authorityStore"
 	"github.com/mt1976/frantic-aliquid/app/dao/behaviourStore"
+	"github.com/mt1976/frantic-core/contextHandler"
 	"github.com/mt1976/frantic-core/logHandler"
 	"github.com/mt1976/frantic-core/messageHelpers"
 )
@@ -18,18 +20,25 @@ func CheckUserAuthority(ctx context.Context, w http.ResponseWriter, r *http.Requ
 	// Check if the user has the required permissions to perform the action
 	// If the user has the required permissions, return true
 
-	tempID := ctx.Value(cfg.GetSecuritySessionKey_UserKey())
-	if tempID == nil {
-		logHandler.SecurityLogger.Printf("[%v] Error getting user ID: %v", strings.ToUpper(domain.String()), "error")
-		return false
-	}
+	userKey := contextHandler.GetSession_UserKey(ctx)
+
+	//tempID := ctx.Value(cfg.GetSecuritySessionKey_UserKey())
+	// if userKey == "" {
+	// 	logHandler.SecurityLogger.Printf("[%v] Error getting user ID: %v", strings.ToUpper(domain.String()), "error")
+	// 	return false
+	// }
 	//logHandler.EventLogger.Printf("tempID: %v %v", tempID, reflect.TypeOf(tempID))
 
-	userKey := tempID.(string)
+	//userKey := tempID.(string)
 
-	userMessage := messageHelpers.UserMessage{
-		Code: userKey,
-	}
+	// userMessage := messageHelpers.UserMessage{
+	// 	Key:      userKey,
+	// 	Code:     contextHandler.GetSession_UserCode(ctx),
+	// 	Locale:   contextHandler.GetSession_Locale(ctx),
+	// 	Theme:    contextHandler.GetSession_Theme(ctx),
+	// 	Timezone: contextHandler.GetSession_Timezone(ctx),
+	// }
+	userMessage := secHelper.UserMessageFromContext(ctx)
 
 	//uID, err := strconv.Atoi(id.(string))
 	if userKey == "" {
