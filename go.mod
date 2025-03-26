@@ -2,7 +2,7 @@ module github.com/mt1976/frantic-aliquid
 
 go 1.24.0
 
-require github.com/mt1976/frantic-aegis v0.0.36
+require github.com/mt1976/frantic-aegis v0.0.37
 
 require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
