@@ -2,11 +2,7 @@ module github.com/mt1976/frantic-aliquid
 
 go 1.24.0
 
-require (
-	github.com/gopherjs/gopherjs v1.17.2 // indirect
-	github.com/jtolds/gls v4.20.0+incompatible // indirect
-	github.com/mt1976/frantic-aegis v0.0.32 // indirect
-)
+require github.com/mt1976/frantic-aegis v0.0.32
 
 require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
@@ -21,7 +17,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mt1976/frantic-core v1.2.67
-	github.com/mt1976/trnsl8r_connect v1.3.2
+	github.com/mt1976/trnsl8r_connect v1.3.3
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/segmentio/ksuid v1.0.4 // indirect
